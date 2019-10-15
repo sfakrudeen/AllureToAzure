@@ -2,8 +2,8 @@
     "manifestVersion": 1,
     "id": "allure-to-azure",
     "name": "Allure to Azure",
-    "version": "0.0.29",
-    "publisher": "FakrudeenShahul",
+    "version": "0.0.31",
+    "publisher": "FakrudeenShahul1",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
