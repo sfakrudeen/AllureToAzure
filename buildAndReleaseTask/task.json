@@ -1,0 +1,38 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+    "id": "b9dce987-8e40-4e94-8d43-cb7f609d3b7f",
+    "name": "AllureToAzure",
+    "friendlyName": "Allure to Azure",
+    "description": "allure to azure",
+    "helpMarkDown": "",
+    "category": "Utility",
+    "author": "fakrudeen@gmail.com",
+    "version": {
+        "Major": 0,
+        "Minor": 1,
+        "Patch": 0
+    },
+    "instanceNameFormat": "Allure to Azure",
+    "inputs": [
+        {
+            "name": "runname",
+            "type": "string",
+            "label": "Run Name",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "Run Name"
+        }, {
+            "name": "path",
+            "type": "string",
+            "label": "Path of allure result",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "Allure results path"
+        }
+    ],
+    "execution": {
+        "Node10": {
+            "target": "index.js"
+        }
+    }
+}

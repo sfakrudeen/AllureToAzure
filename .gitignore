@@ -1,0 +1,5 @@
+
+*.vsix
+.DS_Store
+*.js
+buildAndReleaseTask/package-lock.json
