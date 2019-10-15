@@ -15,6 +15,24 @@ Currently it is tested against Allure + Testng.
 
 Though this plubin uploads allure test results to Azure Devops Test Results, not all features supported by Allure is available in Azure Devops Test Results. This plubin will be useful if you want to upload test result of Web tests that has step details and screenshots.
 
+#### AllureToAzure Task Input Details ####
+
+![AllureToAzuer Task Inputs](/doc/A2ATasks.png)
+
+#### Uploaded Test Results ####
+
+![AllureToAzuer Task Inputs](/doc/TestResult1.png)
+
+#### Uploaded Test Results with error message ####
+
+![AllureToAzuer Task Inputs](/doc/TestResult_Error.png)
+
+#### Uploaded Test Results with steps and screenshots ####
+
+![AllureToAzuer Task Inputs](/doc/TestResult_Attachment.png)
+
+
+
 
 
 
